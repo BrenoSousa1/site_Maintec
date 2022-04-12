@@ -1,0 +1,99 @@
+.color1 {
+    background: linear-gradient(90deg, rgba(58, 134, 180, 1) 0%, rgba(29, 33, 253, 1) 50%, rgba(161, 69, 252, 1) 100%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .color2 {
+    background: linear-gradient(90deg, rgba(195, 34, 184, 1) 10%, rgba(201, 127, 207, 1) 51%, rgba(45, 253, 234, 1) 100%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .color3 {
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(70, 252, 137, 1) 100%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .color4 {
+    background: linear-gradient(90deg, rgba(239, 246, 88, 1) 0%, rgba(240, 34, 34, 1) 100%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .color5 {
+    background: linear-gradient(90deg, rgba(114, 151, 35, 1) 9%, rgba(0, 251, 134, 1) 100%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .perfil {
+    width: 200px;
+    height: 200px;
+    border: solid medium white;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  .perfil:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+  }
+
+  .capa {
+    background: linear-gradient(90deg, rgba(58, 134, 180, 1) 0%, rgba(29, 33, 253, 1) 50%, rgba(161, 69, 252, 1) 100%);
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .capa2 {
+    background: linear-gradient(90deg, rgba(195, 34, 184, 1) 10%, rgba(201, 127, 207, 1) 51%, rgba(45, 253, 234, 1) 100%);
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .capa3 {
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(70, 252, 137, 1) 100%);
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .capa4 {
+    background: linear-gradient(90deg, rgba(239, 246, 88, 1) 0%, rgba(240, 34, 34, 1) 100%);
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .capa5 {
+    background: linear-gradient(90deg, rgba(114, 151, 35, 1) 9%, rgba(0, 251, 134, 1) 100%);
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .capa,
+  .capa2,
+  .capa3,
+  .capa4,
+  .capa5 {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 130px;
+  }

@@ -14,7 +14,7 @@ DISCLAIMER: A perspectiva de desenvolvimento deste projeto apresentada neste REA
 "O site MainTec tem como foco ajudar estudantes a conhecerem melhor cursos e profissões, mostrando diversas informações úteis sobre os cursos. <br>
 Inicialmente o site conta apenas com informações sobre a área de TI, porém futuramente, o site contará com áreas diferentes e diversos outros cursos."
 <br><br>
-Inicialmente o site também tinha a ideia de direcionar os estudantes com dicas de profissionais que ja estevam na área em que os estudantes se interessam-se e listaria formas de ingressar nas faculdades próxima de onde morava, mas acabou que essas ideias foram descartadas devido ao tempo de entrega e falta de conhecimento dos integrantes.
+Inicialmente o site também tinha a ideia de direcionar os estudantes com dicas de profissionais que ja estavam na área em que os estudantes se interessarem e listaria formas de ingressar nas faculdades próximas de acordo com a localização do usuário, mas acabou que essas ideias foram descartadas devido ao tempo de entrega e falta de conhecimento dos integrantes.
 
 <h2>Tecnologias Utilizadas:</h2>
 A aplicação Web foi feita com o uso de linguagens estudadas ao longo dos módulos do curso como: PHP, HTML, CSS e Javascript.<br>

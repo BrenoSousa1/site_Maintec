@@ -5,7 +5,7 @@ Este site nunca foi hospedado ou utilizado em negócio real, apesar de toda a co
 Foi apenas testado localmente utilizando XAMPP (https://www.apachefriends.org/pt_br/index.html) como servidor.
 
 <h2>Sobre este repositório</h2>
-Este repositório contém os arquivos do site da forma em que foi terminado na época entre 2019 e primeiro semestre de 2020. onde não foi utilizado Github ou outras formas de desenvolvimento colaborativo. Disto isso, <br>
+Este repositório contém os arquivos do site da forma em que foi terminado na época entre 2019 e primeiro semestre de 2020, onde não foi utilizado Github ou outras formas de desenvolvimento colaborativo. Disto isso, <br>
 DISCLAIMER: A perspectiva de desenvolvimento deste projeto apresentada neste README é somente minha e não deve refletir os outros integrantes do grupo.
 
 ![image](https://user-images.githubusercontent.com/58536403/163075359-75fccfad-14cd-4e03-ba87-edab8f6c5661.png)

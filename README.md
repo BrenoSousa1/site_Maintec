@@ -19,7 +19,7 @@ Inicialmente o site também tinha a ideia de direcionar os estudantes com dicas 
 <h2>Tecnologias Utilizadas:</h2>
 A aplicação Web foi feita com o uso de linguagens estudadas ao longo dos módulos do curso como: PHP, HTML, CSS e Javascript.<br/>
 Para o banco de dados, utilizou-se o MySQL e, consequentemente, a linguagem SQL para inserir, acessar e gerenciar o conteúdo armazenado.<br/>
-A fim de tornar o site responsivo, foi utilizado o Bootstrap. Ademais, o mesmo serviu de base no design com alguns templates, para tornar o site mais agradável e prático para os usuários. Apesar de ter sido alternado bastante posteriormente.<br/>
+A fim de tornar o site responsivo, foi utilizado o Bootstrap. Ademais, o mesmo serviu de base no design com alguns templates, para tornar o site mais agradável e prático para os usuários. Apesar de ter sido alterado bastante posteriormente.<br/>
 
 ![image](https://user-images.githubusercontent.com/58536403/163075249-6fcd45a8-d359-4d24-acb6-4b42a80201b4.png)
 

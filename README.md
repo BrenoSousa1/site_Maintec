@@ -5,7 +5,7 @@ Este site nunca foi hospedado ou utilizado em negócio real, apesar de toda a co
 Foi apenas testado localmente utilizando XAMPP (https://www.apachefriends.org/pt_br/index.html) como servidor.
 
 <h2>Sobre este repositório</h2>
-Este repositório contém os arquivos do site da forma em que foi terminado na época entre 2019 e primeiro semestre de 2020, onde não foi utilizado Github ou outras formas de desenvolvimento colaborativo. Disto isso, <br/>
+Este repositório contém os arquivos do site da forma em que foi terminado na época entre 2019 e primeiro semestre de 2020, onde não foi utilizado Github ou outras formas de desenvolvimento colaborativo. Dito isso, <br/>
 DISCLAIMER: A perspectiva de desenvolvimento deste projeto apresentada neste README é somente minha e não deve refletir os outros integrantes do grupo.
 
 ![image](https://user-images.githubusercontent.com/58536403/163075359-75fccfad-14cd-4e03-ba87-edab8f6c5661.png)
@@ -36,7 +36,7 @@ Ou então para utilizar uma página como "template" e seu conteúdo é alterado 
 Posteriormente descobri que isso era muito parecido com o conceito MVC (Model-View-Controller) que são base em frameworks como CodeIgniter, porém na época que foi desenvolvido eu não sabia e foi algo que fui fazendo por ser muito conveniente.
 
 <h4>Por que armazenar as informações de cursos em arquivos .txt invés do Banco de Dados MySQL?</h4>
-Como dito no início, o site nunca foi hospedado para uso real e foi apresentado a banca do TCC localmente usando o XAMPP, por conta disso eu decidi fazer um "banco de dados permanente" de algumas destas páginas salvando os textos em arquivos .txt localmente para caso o site fosse aberto sem o banco de dados MYSQL estar rodando ja que isso envolvia ligar o servidor no XAMPP e executar o database.sql, então fiz isso apenas para que não apresentasse erros inesperados para as pessoas que não estavam envolvidas no desenvolvimento. De fato, se eu não fizesse isso teria sido extremamente mais fácil no desenvolvimento, já que só seria necessário fazer um simples Select numa Table, invés de todo tratamento de arquivo e texto que tive que fazer, mas isso também foi ótimo para aprender a lidar os arquivos no PHP.
+Como dito no início, o site nunca foi hospedado para uso real e foi apresentado a banca do TCC localmente usando o XAMPP, por conta disso eu decidi fazer um "banco de dados permanente" de algumas destas páginas salvando os textos em arquivos .txt localmente para caso o site fosse aberto sem o banco de dados MYSQL estar rodando ja que isso envolvia ligar o servidor no XAMPP e executar o database.sql, então fiz isso apenas para que não apresentasse erros inesperados para as pessoas que não estavam envolvidas no desenvolvimento. De fato, se eu não fizesse isso teria sido extremamente mais fácil no desenvolvimento, já que só seria necessário fazer um simples Select numa Table, invés de todo tratamento de arquivo e texto que tive que fazer, mas isso também foi ótimo para aprender a lidar com os arquivos no PHP.
 
 <h3>Página de Administrador</h3>
 
@@ -57,8 +57,8 @@ Também havia planejado uma função para alterar conteúdo, mas o tempo de entr
 
 <h3>Página de Usuário</h3>
 
-A lógica é mesma só que aumentada em 100x pois é uma área completamente customizada pelo Usuário, ou seja, quase tudo que está nela é basicamente o CRUD (Create, Read, Update, Delete).
+A lógica é mesma só que aumentada só que em maior escala, pois é uma área completamente customizada pelo Usuário, ou seja, quase tudo que está nela é basicamente o CRUD (Create, Read, Update, Delete).
 
 ![image](https://user-images.githubusercontent.com/58536403/163092258-d310f0fe-67e7-4da4-9173-aa02d1228945.png)
 
-Diferentemente do resto do site, essa área os dados são armazenados principalmente no banco de dados por ser mais rápido, fácil e seguro, além de serem dados que só podem ser acessados obrigatoriamente tendo um login ativo. Algumas informações que já foram dadas no cadastro, como nome e endereço, são mostradas e também tem diversos campos de informações que podem ser adicionadas, editadas e deletadas, que posteriormente são usados para gerar um currículo. Existe um pequeno script em Javascript e CSS feito para alternar a cor do fundo do perfil para está página.
+Diferentemente do resto do site, essa área os dados são armazenados principalmente no banco de dados por ser mais rápido, fácil e seguro, além de serem dados que só podem ser acessados obrigatoriamente tendo um login ativo, que envolvem ter o banco de dados ativo. Algumas informações que já foram dadas no cadastro de usuario, como nome e endereço, são mostradas e também tem diversos campos de informações que podem ser adicionadas, editadas e deletadas, que posteriormente são usados para gerar um currículo. Existe um pequeno script em Javascript e CSS feito para alternar a cor do fundo do perfil para está página.
